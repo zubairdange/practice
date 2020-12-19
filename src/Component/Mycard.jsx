@@ -10,14 +10,14 @@ export const Mycard = ({ itemCurent }) => {
     <div>
       <Col>
         <Card style={{ width: "18rem" }}>
-          <Row>
-            <Col>
-              <Card.Img variant="top" src={itemCurent.cardImage} />
-            </Col>
-            <Col>
-              <Card.Title>{itemCurent.cardTitle}</Card.Title>
-            </Col>
-          </Row>
+          <Col>
+            <Card.Img variant="top" src={itemCurent.cardImage} />
+          </Col>
+
+          <Col>
+            <Card.Title>{itemCurent.cardTitle}</Card.Title>
+          </Col>
+
           <Card.Body>
             <Card.Text>{itemCurent.cardText}</Card.Text>
 
