@@ -4,12 +4,12 @@ import { CardReducer } from "./Reducer/CardReducer";
 import { Row } from "react-bootstrap";
 export const MycardParent = () => {
   return (
-    <div>
+    <React.Fragment>
       <Row>
         {CardReducer.cardItem.map((item) => {
           return <Mycard itemCurent={item} />;
         })}
       </Row>
-    </div>
+    </React.Fragment>
   );
 };

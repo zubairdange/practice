@@ -42,5 +42,11 @@ export const CardReducer = {
       cardText: "This is card 4",
       cardLink: "www.google.com",
     },
+    {
+      cardTitle: "Fifth CARD",
+      cardImage: "Images/img1.jpg",
+      cardText: "This is card 5",
+      cardLink: "www.google.com",
+    },
   ],
 };
