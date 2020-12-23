@@ -12,13 +12,13 @@ export const Mycard = ({ itemCurent }) => {
           </Col>
 
           <Col>
-            <Card.Title>{itemCurent.cardTitle}</Card.Title>
+            <Card.Title>{itemCurent.title}</Card.Title>
           </Col>
 
           <Card.Body>
-            <Card.Text>{itemCurent.cardText}</Card.Text>
+            <Card.Text>{itemCurent.descp}</Card.Text>
 
-            <Card.Link> {itemCurent.cardLink}</Card.Link>
+            <Card.Link> {itemCurent.links}</Card.Link>
           </Card.Body>
         </Card>
       </Col>
