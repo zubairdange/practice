@@ -17,9 +17,18 @@ const cardsDefaultState = {
     {
       id: uuid(),
       name: "zubair ahmed",
-      title: "This is my card",
-      descp: "hjbkjfjjkbvjwbwjfjvjvbjkj bjbdkj kjjbk",
+      title: "redux",
+      descp: "card implimented in redux",
       links: "www.google.com",
+      cimage: "Images/img1.jpg",
+    },
+    {
+      id: uuid(),
+      name: "Tauseef Iqball",
+      title: "redux",
+      descp: "card implimented in redux",
+      links: "mdtauseef27@gmail.com",
+      cimage: "Images/z5.jpg",
     },
   ],
 };

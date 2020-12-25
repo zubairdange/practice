@@ -8,7 +8,7 @@ export const Mycard = ({ itemCurent }) => {
       <Col>
         <Card style={{ width: "18rem" }}>
           <Col>
-            <Card.Img variant="top" src={itemCurent.cardImage} />
+            <Card.Img variant="top" src={itemCurent.cimage} />
           </Col>
 
           <Col>
@@ -17,6 +17,7 @@ export const Mycard = ({ itemCurent }) => {
 
           <Card.Body>
             <Card.Text>{itemCurent.descp}</Card.Text>
+            <Card.Text>{itemCurent.name}</Card.Text>
 
             <Card.Link> {itemCurent.links}</Card.Link>
           </Card.Body>
