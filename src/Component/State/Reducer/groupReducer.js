@@ -1,10 +1,10 @@
 import { uuid } from "uuidv4";
-export const groupReducer = (state = groupDefaultState, action) => {
+const groupReducer = (state = groupDefaultState, action) => {
   switch (action.type) {
     case "ADD_NEW_Group":
       return {
         ...state,
-        group: [...state.group, action.group],
+        groups: [action.group, ...state.groups],
       };
 
     default:
@@ -13,15 +13,18 @@ export const groupReducer = (state = groupDefaultState, action) => {
 };
 
 const groupDefaultState = {
-  group: [
+  groups: [
     {
       id: uuid(),
       groupName: "React Developer",
       groupTitle: "welcome to REACT World",
     },
     {
+      id: uuid(),
+
       groupName: "UI Developer",
       groupTitle: "welcome to UI Technologies",
     },
   ],
 };
+export default groupReducer;

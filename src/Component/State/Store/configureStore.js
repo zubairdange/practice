@@ -6,6 +6,7 @@ const configureStore = () => {
   const store = createStore(
     combineReducers({
       cardsReducer,
+      groupReducer,
     }),
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   );
