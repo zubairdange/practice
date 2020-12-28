@@ -1,11 +1,13 @@
-import uuid from "uuid/v4";
+import { uuid } from "uuidv4";
 
-export const addNewCard = ({ name, title, descp, links }) => ({
+export const addNewCard = (cimage, title, name, descp, links) => ({
   type: "ADD_NEW_CARD",
   card: {
     id: uuid(),
-    name,
+    cimage,
     title,
+    name,
+
     descp,
     links,
   },

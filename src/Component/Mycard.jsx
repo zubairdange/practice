@@ -16,8 +16,9 @@ export const Mycard = ({ itemCurent }) => {
           </Col>
 
           <Card.Body>
-            <Card.Text>{itemCurent.descp}</Card.Text>
             <Card.Text>{itemCurent.name}</Card.Text>
+
+            <Card.Text>{itemCurent.descp}</Card.Text>
 
             <Card.Link> {itemCurent.links}</Card.Link>
           </Card.Body>

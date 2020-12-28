@@ -1,5 +1,6 @@
 import { createStore, combineReducers } from "redux";
 import cardsReducer from "../Reducer/cardsReducer";
+import groupReducer from "../Reducer/groupReducer";
 
 const configureStore = () => {
   const store = createStore(
