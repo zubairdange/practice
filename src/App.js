@@ -7,16 +7,14 @@ import { Zubair } from "./Component/Zubair";
 import { ZubairP } from "./Component/ZubairP";
 import { CardDispatch } from "./Component/CardDispatch";
 import { MyReport } from "./Component/MyReport";
-import { GroupP } from "./Component/GroupP";
 
 function App() {
   return (
     <div>
       {/* <ZubairP /> */}
 
-      {/* <CardDispatch />
-      <MycardParent /> */}
-      <GroupP />
+      <CardDispatch />
+      <MycardParent />
     </div>
   );
 }

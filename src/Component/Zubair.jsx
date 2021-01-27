@@ -2,6 +2,7 @@ import React from "react";
 import { Card, Col } from "react-bootstrap";
 
 export const Zubair = ({ curentData }) => {
+  console.log("current data=====>", curentData);
   return (
     <React.Fragment>
       <Col>
